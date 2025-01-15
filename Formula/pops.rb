@@ -1,29 +1,29 @@
 class Pops < Formula
   desc "Prompt-Ops CLI tool for intuitive infrastructure management"
   homepage "https://github.com/prompt-ops/pops"
-  version "0.0.1"
+  version "v0.0.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prompt-ops/pops/releases/download/v0.0.1/pops-darwin-amd64"
-      sha256 "8fa9fbd131b9421ca4c32f8e62b4a3a761ac946a87aa1ad25b8a61519fe74d12"
+      url "https://github.com/prompt-ops/pops/releases/download/v0.0.2/pops-darwin-amd64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/prompt-ops/pops/releases/download/v0.0.1/pops-darwin-arm64"
-      sha256 "3aa41329acb30d16328551253899f908a17249d37fba7ccfc1fa9084544cd305"
+      url "https://github.com/prompt-ops/pops/releases/download/v0.0.2/pops-darwin-arm64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/prompt-ops/pops/releases/download/v0.0.1/pops-linux-amd64"
-      sha256 "3e42b3b4e85c2b6e392f375facab4e8cca6b4b4ee2ef664a7033ca6b7376a910"
+      url "https://github.com/prompt-ops/pops/releases/download/v0.0.2/pops-linux-amd64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/prompt-ops/pops/releases/download/v0.0.1/pops-linux-arm64"
-      sha256 "8bf14ca00af1b01fd70438a1a95e170d82abfac98b4495da58c69966c006cf0b"
+      url "https://github.com/prompt-ops/pops/releases/download/v0.0.2/pops-linux-arm64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
